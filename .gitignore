@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# ===== Virtual environments =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Environment / secrets =====
+.env
+.env.local
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Model artifacts =====
+# Uncomment the line below if you decide NOT to commit the .pkl files
+# (they're ~3.5 MB — under GitHub's 50 MB warning threshold, so
+#  committing them is fine for a portfolio project)
+# models/*.pkl
