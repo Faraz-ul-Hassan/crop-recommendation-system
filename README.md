@@ -171,9 +171,3 @@ Startup output should include:
 - Deploy to a public host (Render, Fly.io, Railway)
 - Swap the frontend for React (API contract unchanged)
 - Add more features to separate rice vs. jute (the model's only systematic confusion)
-
----
-
-## 📄 License
-
-MIT (or your choice — add `LICENSE` file if you want a formal one)
