@@ -33,6 +33,9 @@ Given 7 input features:
 | Gradient Boosting | 98.86% | 98.75% ± 0.69% |
 
 **Why Random Forest?** Equal test accuracy to Naive Bayes (99.55%), but **lower CV variance** (0.43% vs 0.51%), no naive-independence assumption (our `P`–`K` correlation is 0.74), and better behavior under feature drift. Full analysis in `notebooks/crop_recommendation.ipynb`.
+---
+
+![Crop Recommendation UI](figures/screenshot-ui.png)
 
 ---
 
